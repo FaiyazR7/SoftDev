@@ -3,10 +3,11 @@ Gordon Mo, Faiyaz Rafee
 SoftDev
 05_bitstream
 2022-09-29
-time spent:
+time spent: 2 hrs
 DISCO: Slice, split, and splice are different! You can't split a
 non-string. 
-QCC:
+
+QCC: open() is used to open txt files with the second parameter "r" to read the file.
 """
 import random
 
