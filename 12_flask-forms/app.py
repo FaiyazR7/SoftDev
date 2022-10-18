@@ -1,8 +1,8 @@
 """
-Dual Ducks: Donald Bi, Brian/Paul Yang, Faiyaz Rafee
+Green Monkey: Faiyaz Rafee, Daniel He
 SoftDev
-K11 -- Flask/html forms
-2022-10-14
+K12 -- Flask/html forms
+2022-10-17
 time spent: .5 hrs
 """
 from flask import Flask             #facilitate flask webserving
