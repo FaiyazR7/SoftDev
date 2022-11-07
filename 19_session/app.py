@@ -11,24 +11,10 @@ from flask import request           #facilitate form submission
 from flask import session
 
 app = Flask(__name__)    #create Flask object
-app.secret_key = b"hehe"
-@app.route("/daniel")
-
-def sessionCreate():
-    if request.method == 'GET':
-        session["username"] = request.args["username"]
-    print (request.args["username"])
-    return render_template("response.html")
-
 
 @app.route("/")
-def welcome():
-
-    if "username" in session: 
-        return "Welcome" + session["username"]
-
-    else:
-        return render_template("login.html")
+    def welcome():
+        if "username" in session: 
             
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
